@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "standalone:honkai-impact-3rd",
+  "status": "verified",
+  "names": {
+    "en": "Honkai Impact 3rd",
+    "zh-CN": "崩坏3"
+  },
+  "platform": "standalone",
+  "platformId": "honkai-impact-3rd",
+  "executables": [
+    { "name": "BH3.exe" },
+    { "name": "HonkaiImpact3rd.exe" }
+  ],
+  "evidence": [
+    { "kind": "publisher", "source": "miHoYo/HoYoverse Windows client" },
+    { "kind": "manual_review", "source": "Game2PL built-in main-process rules; HoYoPlay launcher excluded" }
+  ],
+  "lastVerified": "2026-10-19"
+}

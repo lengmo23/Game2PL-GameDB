@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "standalone:genshin-impact",
+  "status": "verified",
+  "names": {
+    "en": "Genshin Impact",
+    "zh-CN": "原神"
+  },
+  "platform": "standalone",
+  "platformId": "genshin-impact",
+  "executables": [
+    { "name": "YuanShen.exe" },
+    { "name": "GenshinImpact.exe" }
+  ],
+  "evidence": [
+    { "kind": "publisher", "source": "miHoYo/HoYoverse Windows client" },
+    { "kind": "manual_review", "source": "Game2PL built-in main-process rules; HoYoPlay launcher excluded" }
+  ],
+  "lastVerified": "2026-10-19"
+}

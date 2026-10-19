@@ -4,6 +4,261 @@
   "records": [
     {
       "schemaVersion": 1,
+      "id": "netease:marvel-rivals",
+      "status": "verified",
+      "names": {
+        "en": "Marvel Rivals",
+        "zh-CN": "漫威争锋"
+      },
+      "platform": "netease",
+      "platformId": "marvel-rivals",
+      "executables": [
+        {
+          "name": "Marvel-Win64-Shipping.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "publisher",
+          "source": "NetEase Games Windows client"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Game2PL built-in main-process rule"
+        }
+      ],
+      "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "netease:naraka-bladepoint",
+      "status": "verified",
+      "names": {
+        "en": "NARAKA: BLADEPOINT",
+        "zh-CN": "永劫无间"
+      },
+      "platform": "netease",
+      "platformId": "naraka-bladepoint",
+      "executables": [
+        {
+          "name": "NarakaBladepoint.exe"
+        },
+        {
+          "name": "Naraka.exe"
+        },
+        {
+          "name": "Naraka-Win64-Shipping.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "publisher",
+          "source": "NetEase/24 Entertainment Windows client"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Game2PL built-in main-process rules; StartGame.exe is explicitly excluded"
+        }
+      ],
+      "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "standalone:genshin-impact",
+      "status": "verified",
+      "names": {
+        "en": "Genshin Impact",
+        "zh-CN": "原神"
+      },
+      "platform": "standalone",
+      "platformId": "genshin-impact",
+      "executables": [
+        {
+          "name": "YuanShen.exe"
+        },
+        {
+          "name": "GenshinImpact.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "publisher",
+          "source": "miHoYo/HoYoverse Windows client"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Game2PL built-in main-process rules; HoYoPlay launcher excluded"
+        }
+      ],
+      "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "standalone:honkai-impact-3rd",
+      "status": "verified",
+      "names": {
+        "en": "Honkai Impact 3rd",
+        "zh-CN": "崩坏3"
+      },
+      "platform": "standalone",
+      "platformId": "honkai-impact-3rd",
+      "executables": [
+        {
+          "name": "BH3.exe"
+        },
+        {
+          "name": "HonkaiImpact3rd.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "publisher",
+          "source": "miHoYo/HoYoverse Windows client"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Game2PL built-in main-process rules; HoYoPlay launcher excluded"
+        }
+      ],
+      "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "standalone:honkai-star-rail",
+      "status": "verified",
+      "names": {
+        "en": "Honkai: Star Rail",
+        "zh-CN": "崩坏：星穹铁道"
+      },
+      "platform": "standalone",
+      "platformId": "honkai-star-rail",
+      "executables": [
+        {
+          "name": "StarRail.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "publisher",
+          "source": "miHoYo/HoYoverse Windows client"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Game2PL built-in main-process rule; HoYoPlay launcher excluded"
+        }
+      ],
+      "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "standalone:jx3-online",
+      "status": "verified",
+      "names": {
+        "en": "JX3 Online",
+        "zh-CN": "剑网3"
+      },
+      "platform": "standalone",
+      "platformId": "jx3-online",
+      "executables": [
+        {
+          "name": "JX3ClientX64.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "publisher",
+          "source": "Seasun Games Windows client"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Game2PL built-in main-process rule"
+        }
+      ],
+      "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "standalone:valorant",
+      "status": "verified",
+      "names": {
+        "en": "VALORANT",
+        "zh-CN": "无畏契约"
+      },
+      "platform": "standalone",
+      "platformId": "valorant",
+      "executables": [
+        {
+          "name": "VALORANT-Win64-Shipping.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "publisher",
+          "source": "Riot Games Windows client"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Game2PL verified game-process rule; VALORANT.exe and Riot Client are launchers and excluded"
+        }
+      ],
+      "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "standalone:wuthering-waves",
+      "status": "verified",
+      "names": {
+        "en": "Wuthering Waves",
+        "zh-CN": "鸣潮"
+      },
+      "platform": "standalone",
+      "platformId": "wuthering-waves",
+      "executables": [
+        {
+          "name": "Wuthering Waves.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "publisher",
+          "source": "Kuro Games Windows client"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Game2PL built-in main-process rule; Kuro launcher excluded"
+        }
+      ],
+      "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "standalone:zenless-zone-zero",
+      "status": "verified",
+      "names": {
+        "en": "Zenless Zone Zero",
+        "zh-CN": "绝区零"
+      },
+      "platform": "standalone",
+      "platformId": "zenless-zone-zero",
+      "executables": [
+        {
+          "name": "ZenlessZoneZero.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "publisher",
+          "source": "miHoYo/HoYoverse Windows client"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Game2PL built-in main-process rule; HoYoPlay launcher excluded"
+        }
+      ],
+      "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1905180",
       "status": "rejected",
       "names": {
@@ -74,6 +329,34 @@
         {
           "kind": "manual_review",
           "source": "Game2PL built-in compatibility rule"
+        }
+      ],
+      "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "wegame:2",
+      "status": "verified",
+      "names": {
+        "en": "CrossFire",
+        "zh-CN": "穿越火线"
+      },
+      "platform": "wegame",
+      "platformId": "2",
+      "executables": [
+        {
+          "name": "crossfire.exe",
+          "relativePath": "x64/crossfire.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "platform_metadata",
+          "source": "WeGame Rail game_id 2 and installed Rail manifest verified"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Main game process is crossfire.exe; launcher and TenProtect components excluded"
         }
       ],
       "lastVerified": "2026-10-19"

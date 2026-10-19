@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "netease:naraka-bladepoint",
+  "status": "verified",
+  "names": {
+    "en": "NARAKA: BLADEPOINT",
+    "zh-CN": "永劫无间"
+  },
+  "platform": "netease",
+  "platformId": "naraka-bladepoint",
+  "executables": [
+    { "name": "NarakaBladepoint.exe" },
+    { "name": "Naraka.exe" },
+    { "name": "Naraka-Win64-Shipping.exe" }
+  ],
+  "evidence": [
+    { "kind": "publisher", "source": "NetEase/24 Entertainment Windows client" },
+    { "kind": "manual_review", "source": "Game2PL built-in main-process rules; StartGame.exe is explicitly excluded" }
+  ],
+  "lastVerified": "2026-10-19"
+}

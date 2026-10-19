@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "standalone:honkai-star-rail",
+  "status": "verified",
+  "names": {
+    "en": "Honkai: Star Rail",
+    "zh-CN": "崩坏：星穹铁道"
+  },
+  "platform": "standalone",
+  "platformId": "honkai-star-rail",
+  "executables": [
+    { "name": "StarRail.exe" }
+  ],
+  "evidence": [
+    { "kind": "publisher", "source": "miHoYo/HoYoverse Windows client" },
+    { "kind": "manual_review", "source": "Game2PL built-in main-process rule; HoYoPlay launcher excluded" }
+  ],
+  "lastVerified": "2026-10-19"
+}
