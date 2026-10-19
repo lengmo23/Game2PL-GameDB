@@ -1,0 +1,8 @@
+{
+  "name": "game2pl-gamedb",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node tools/build-index.mjs"
+  }
+}

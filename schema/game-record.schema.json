@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://game2pl.example/schema/game-record-v1.json",
+  "title": "Game2PL game identity record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "id", "status", "names", "platform", "platformId", "executables", "evidence"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "id": { "type": "string", "pattern": "^[a-z0-9_-]+:[A-Za-z0-9._:-]+$", "maxLength": 128 },
+    "status": { "enum": ["verified", "pending", "rejected", "deprecated"] },
+    "names": {
+      "type": "object",
+      "additionalProperties": { "type": "string", "minLength": 1, "maxLength": 160 },
+      "minProperties": 1
+    },
+    "platform": { "enum": ["steam", "wegame", "netease", "standalone"] },
+    "platformId": { "type": "string", "minLength": 1, "maxLength": 80, "pattern": "^[A-Za-z0-9._:-]+$" },
+    "executables": {
+      "type": "array",
+      "maxItems": 16,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string", "pattern": "^[^\\\\/:*?\"<>|]+\\.exe$", "maxLength": 160 },
+          "relativePath": { "type": "string", "maxLength": 300 }
+        }
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["kind", "source"],
+        "properties": {
+          "kind": { "enum": ["platform_metadata", "official_store", "publisher", "community_confirmation", "manual_review"] },
+          "source": { "type": "string", "minLength": 1, "maxLength": 500 }
+        }
+      }
+    },
+    "lastVerified": { "type": "string", "format": "date" },
+    "replacementId": { "type": "string", "maxLength": 128 }
+  }
+}

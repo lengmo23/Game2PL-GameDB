@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1905180",
+  "status": "rejected",
+  "names": {
+    "en": "OBS Studio"
+  },
+  "platform": "steam",
+  "platformId": "1905180",
+  "executables": [
+    { "name": "obs64.exe" }
+  ],
+  "evidence": [
+    { "kind": "manual_review", "source": "Desktop broadcasting software, not a game" }
+  ],
+  "lastVerified": "2026-10-19"
+}

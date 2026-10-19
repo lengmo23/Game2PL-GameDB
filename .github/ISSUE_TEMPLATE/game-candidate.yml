@@ -1,0 +1,49 @@
+name: 提交游戏候选
+description: 提交尚未收录或识别有误的 Windows 游戏
+title: "[candidate] "
+labels: ["candidate", "needs-verification"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请勿提交绝对安装路径、Windows 用户名、账号、日志、存档或游戏文件。
+        提交后只会进入待验证区，不会直接加入客户端的已验证索引。
+  - type: dropdown
+    id: platform
+    attributes:
+      label: 平台
+      options: [Steam, WeGame, 网易, 独立安装, 其他]
+    validations:
+      required: true
+  - type: input
+    id: platform_id
+    attributes:
+      label: 平台 ID
+      description: Steam AppID、WeGame/Rail game_id 等；没有可以留空。
+  - type: input
+    id: game_name
+    attributes:
+      label: 游戏名称
+    validations:
+      required: true
+  - type: input
+    id: executable_name
+    attributes:
+      label: 游戏主进程文件名
+      placeholder: Game-Win64-Shipping.exe
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 判定依据
+      description: 平台清单、官方商店页面、Shipping 主程序、Unity/Unreal 文件或反作弊标记等。
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: 隐私确认
+      options:
+        - label: 我已确认内容不包含绝对路径、Windows 用户名、账号、日志、存档或文件内容。
+          required: true

@@ -1,0 +1,82 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-19T00:00:00.000Z",
+  "records": [
+    {
+      "schemaVersion": 1,
+      "id": "steam:1905180",
+      "status": "rejected",
+      "names": {
+        "en": "OBS Studio"
+      },
+      "platform": "steam",
+      "platformId": "1905180",
+      "executables": [
+        {
+          "name": "obs64.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "manual_review",
+          "source": "Desktop broadcasting software, not a game"
+        }
+      ],
+      "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:578080",
+      "status": "verified",
+      "names": {
+        "en": "PUBG: BATTLEGROUNDS",
+        "zh-CN": "绝地求生"
+      },
+      "platform": "steam",
+      "platformId": "578080",
+      "executables": [
+        {
+          "name": "TslGame.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "platform_metadata",
+          "source": "Steam AppID 578080"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Game2PL built-in compatibility rule"
+        }
+      ],
+      "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:730",
+      "status": "verified",
+      "names": {
+        "en": "Counter-Strike 2",
+        "zh-CN": "反恐精英 2"
+      },
+      "platform": "steam",
+      "platformId": "730",
+      "executables": [
+        {
+          "name": "cs2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "platform_metadata",
+          "source": "Steam AppID 730"
+        },
+        {
+          "kind": "manual_review",
+          "source": "Game2PL built-in compatibility rule"
+        }
+      ],
+      "lastVerified": "2026-10-19"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:730",
+  "status": "verified",
+  "names": {
+    "en": "Counter-Strike 2",
+    "zh-CN": "反恐精英 2"
+  },
+  "platform": "steam",
+  "platformId": "730",
+  "executables": [
+    { "name": "cs2.exe" }
+  ],
+  "evidence": [
+    { "kind": "platform_metadata", "source": "Steam AppID 730" },
+    { "kind": "manual_review", "source": "Game2PL built-in compatibility rule" }
+  ],
+  "lastVerified": "2026-10-19"
+}
