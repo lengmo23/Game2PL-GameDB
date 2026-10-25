@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 OUTPUT = ROOT / "candidates" / "gamepp-type1.json"
 INVALID_NAME = re.compile(r'[<>:"/\\|?*\x00-\x1f]')
+NUMBERED_COPY = re.compile(r" \(([1-9][0-9]*)\)\.exe$", re.I)
 EXCLUSIONS = [
     ("launcher", re.compile(r"launcher", re.I)),
     ("editor", re.compile(r"editor", re.I)),
@@ -91,11 +92,16 @@ def digest(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def reason_for(name):
+def reason_for(name, source_names):
     if not name.casefold().endswith(".exe"):
         return "not an EXE filename"
     if len(name) > 160 or INVALID_NAME.search(name):
         return "invalid EXE filename"
+    if name.casefold().endswith(".exe.exe"):
+        return "duplicated EXE extension"
+    numbered = NUMBERED_COPY.search(name)
+    if numbered and (name[:numbered.start()] + ".exe").casefold() in source_names:
+        return "numbered copy of an existing EXE"
     exact = EXACT_EXCLUSIONS.get(name.casefold())
     if exact:
         return exact
@@ -118,11 +124,14 @@ def main(source):
     if before != digest(source):
         raise ValueError("GamePP database changed during import")
 
+    source_names = {
+        raw_name.strip().casefold() for (raw_name,) in rows if isinstance(raw_name, str)
+    }
     candidates = {}
     excluded = {}
     for (raw_name,) in rows:
         name = raw_name.strip() if isinstance(raw_name, str) else ""
-        reason = reason_for(name)
+        reason = reason_for(name, source_names)
         key = name.casefold()
         if reason:
             excluded.setdefault(key, {"name": name, "reason": reason})

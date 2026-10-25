@@ -19,4 +19,4 @@
 
 这份候选不属于 `records` 中人工验证的游戏身份记录，`npm run build` 不会把它写入客户端使用的 `generated/gamedb-v1.json`，也不会触发扫描或 Process Lasso 规则。GamePP 来源数据不按本仓库的 CC0 游戏身份记录授权。
 
-更新候选时，在 `gamedb` 目录运行 `D:/Anaconda3/envs/pytorch/python.exe tools/import-gamepp.py <GamePP0.dat路径>`。脚本只读数据库，选择 `WhiteBlack` 表中 `type=1` 且 `on_off=1` 的记录；仅保留有效 EXE 文件名，过滤可明确识别的启动器、编辑器、跑分程序、安装器、服务等。无法仅凭文件名判断的条目继续保留为待审候选。
+更新候选时，在 `gamedb` 目录运行 `D:/Anaconda3/envs/pytorch/python.exe tools/import-gamepp.py <GamePP0.dat路径>`。脚本只读数据库，选择 `WhiteBlack` 表中 `type=1` 且 `on_off=1` 的记录；仅保留有效 EXE 文件名，过滤可明确识别的启动器、编辑器、跑分程序、安装器、服务、重复 `.exe` 扩展名，以及同库已有原名的 `(2)` 等编号副本。无法仅凭文件名判断的条目继续保留为待审候选。
