@@ -14,8 +14,8 @@
   },
   "counts": {
     "selectedRows": 24149,
-    "candidateNames": 23180,
-    "excludedNames": 941
+    "candidateNames": 23116,
+    "excludedNames": 1005
   },
   "candidates": [
     "!!!PATRIOTS_noCD.exe",
@@ -40,7 +40,6 @@
     "._cache_HomeSweetHome-Win32-Shipping.exe",
     "._cache_ISLAND_CHS.exe",
     "._cache_iw3sp.exe",
-    "._cache_Launch.exe",
     "._cache_Limbo.exe",
     "._cache_mugen.exe",
     "._cache_NFS11.exe",
@@ -194,7 +193,6 @@
     "335CJWOW.exe",
     "335DJXBWOW.exe",
     "335JPWOW.exe",
-    "360_dldlweb.exe",
     "360NoScopeArena.exe",
     "365 Days.exe",
     "36D 内部版.mapo.exe",
@@ -2176,7 +2174,6 @@
     "biubiu.exe",
     "Biye_Project.exe",
     "BizarreHolyLand.exe",
-    "bizlaunch.exe",
     "BKA.exe",
     "BL.exe",
     "Black Baron.exe",
@@ -2477,7 +2474,6 @@
     "Bootcamp-Win64-Shipping.exe",
     "Booth.exe",
     "Bootleg.exe",
-    "bootstrapper.exe",
     "BootyCalls.exe",
     "BoP.exe",
     "Border Conqueror.exe",
@@ -2655,7 +2651,6 @@
     "BSPlatformSupport.exe",
     "bsz.exe",
     "bsz2.exe",
-    "BS中文列表Mod安装器ModAssistant(国内中转,下不动再用这个).exe",
     "bt777-swydn.exe",
     "bt777-zssg.exe",
     "BTAW5_ThroughTheLookingGlass_CE.exe",
@@ -3037,7 +3032,6 @@
     "ce.exe",
     "CE2.exe",
     "Cefore.exe",
-    "CefStoveRenderProcess.exe",
     "Celeste.exe",
     "CelestialCommand.exe",
     "cellfactor.exe",
@@ -3274,7 +3268,6 @@
     "citiesxl_game.exe",
     "CitiesXL_Platinum.exe",
     "CitiesXXL.exe",
-    "CitiLaunch.exe",
     "CitizenFX.exe",
     "citra.exe",
     "CITRAEX.exe",
@@ -3397,7 +3390,6 @@
     "clothes.exe",
     "Cloud Gardens.exe",
     "Cloud Meadow 2.02.4G_Win.exe",
-    "CloudBerry Remote Assistant.exe",
     "CloudberryKingdom.exe",
     "CloudBound.exe",
     "CloudClient.exe",
@@ -3692,7 +3684,6 @@
     "conviction_game.exe",
     "ConvictVR-Win64-Shipping.exe",
     "Convoy.exe",
-    "CooCare.Client4.exe",
     "cookersync.exe",
     "Cookie Clicker.exe",
     "Cooking Academy Collection.exe",
@@ -3999,7 +3990,6 @@
     "csvr.exe",
     "cswow.exe",
     "csxy.exe",
-    "csxylaunch.exe",
     "CT2.1.exe",
     "ct3.exe",
     "CTA.exe",
@@ -4343,7 +4333,6 @@
     "dasaku_add.exe",
     "dasaku_add_cn.exe",
     "dash-da-dash dx v12.exe",
-    "DashPanelClient.exe",
     "Data mining 8.exe",
     "data.exe",
     "DataFile-Win64-Shipping.exe",
@@ -5664,7 +5653,6 @@
     "e-space.exe",
     "E1-Win64-Shipping.exe",
     "e19_onaho.exe",
-    "EACLaunch.exe",
     "eacsnd.exe",
     "eador_mbw.exe",
     "Eagarlnia.exe",
@@ -5988,7 +5976,6 @@
     "enlightenus.exe",
     "enlist.exe",
     "enlisted.exe",
-    "EnscapeClient.exe",
     "enshrouded.exe",
     "Enslaved.exe",
     "Enter_The_Moon.exe",
@@ -6211,7 +6198,6 @@
     "EXAPUNKS.exe",
     "Exception.exe",
     "ExclusiveMemory.exe",
-    "ExecPubg.exe",
     "execute.bin.exe",
     "executiveassault.exe",
     "ExecutiveAssault2.exe",
@@ -7472,7 +7458,6 @@
     "GameApp_PcDx11_x64Final.exe",
     "gameares.exe",
     "GameBackroomsSociety-Win64-Shipping.exe",
-    "GameCentre_Client.exe",
     "gameclient.dat.exe",
     "gameclient.exe",
     "gameclient_release.exe",
@@ -7492,7 +7477,6 @@
     "gameinterpreters_rd.exe",
     "gamejacrossfire.exe",
     "gamelander.exe",
-    "gamelaunch.exe",
     "GameLegends.exe",
     "GameMaker.exe",
     "GameMakerStudio.exe",
@@ -7778,7 +7762,6 @@
     "glqwcl.exe",
     "GLSLHacker.exe",
     "GLVanHelsing_x86.exe",
-    "GlyphClientApp.exe",
     "GlyphEngine.exe",
     "gm rally.exe",
     "GMCY.exe",
@@ -7852,7 +7835,6 @@
     "Gokartsurvival-Win64-Shipping.exe",
     "GOKEN.exe",
     "gol.exe",
-    "golaunch.exe",
     "Gold Rush! Anniversary.exe",
     "Golden Light.exe",
     "Golden Treasure - The Great Green Demo.exe",
@@ -8246,7 +8228,6 @@
     "GX_HYT-Win64-Shipping.exe",
     "gxddance.exe",
     "GXWow.exe",
-    "gxxcef.exe",
     "gxxsvc.exe",
     "gyakurape.exe",
     "GymSimulator-Win64-Shipping.exe",
@@ -8888,7 +8869,6 @@
     "Hockey Super Squad.exe",
     "HoCWar.exe",
     "hod2.exe",
-    "hod3launch.exe",
     "hod3pc.exe",
     "Hodzero-Win64-Shipping.exe",
     "HOG3D.exe",
@@ -9182,7 +9162,6 @@
     "hyclient.exe",
     "HYJDWOW.exe",
     "hyo.exe",
-    "hyp.exe",
     "hyp_beta.exe",
     "hyp_beta_nep_vmp_20180906.exe",
     "hyp_beta_nonep_20180906.exe",
@@ -10508,25 +10487,6 @@
     "LateNightMop-Win64-Shipping.exe",
     "LateShift.exe",
     "lauch.exe",
-    "Launch - 原版.exe",
-    "Launch 1.02.exe",
-    "Launch A.exe",
-    "Launch Empire Earth II The Art of Supremacy.exe",
-    "Launch Skyrim.exe",
-    "launch.bin.exe",
-    "launch.exe",
-    "Launch1.02.exe",
-    "Launch_BM.exe",
-    "launch_dx.exe",
-    "Launch_EA.exe",
-    "Launch_Game.exe",
-    "Launch_Game1.exe",
-    "Launch_HLL.exe",
-    "Launch_JP.exe",
-    "Launch_Trials_Rising.exe",
-    "LaunchPad.exe",
-    "Launchs.exe",
-    "launchssc.exe",
     "Laundry killer.exe",
     "Launsssch.exe",
     "Lava-Win64-Shipping.exe",
@@ -11146,7 +11106,6 @@
     "LWA.exe",
     "lwclient.exe",
     "lwiw.exe",
-    "LWLaunch.exe",
     "LWSMAIN.exe",
     "lwui.exe",
     "lwziyv.exe",
@@ -11828,7 +11787,6 @@
     "mindgame.exe",
     "MINDNIGHT.exe",
     "mindrover.exe",
-    "MindsEyesLaunch.exe",
     "Mindshow.exe",
     "MindSnares.exe",
     "Mindustry.exe",
@@ -13096,7 +13054,6 @@
     "nolimits2VR.exe",
     "nolimitssimulator.exe",
     "NOLO_HOME.exe",
-    "Nolo_WPFAssistant.exe",
     "Nomad Survival.exe",
     "nomad.exe",
     "Nomads-Win64-Shipping.exe",
@@ -14795,7 +14752,6 @@
     "QQFWRender.exe",
     "qqhxgame.exe",
     "qqhxsj.exe",
-    "qqlogin.exe",
     "QQMiniGame.exe",
     "QQMJ.exe",
     "qqqy.exe",
@@ -16458,13 +16414,10 @@
     "SF4TGBUS.exe",
     "sfgsoccer.exe",
     "sfiii3.exe",
-    "sflogin.exe",
     "sfm.exe",
     "sftk.exe",
     "SFXMMv2_US.exe",
     "SG2Client.exe",
-    "Sg2Launch.exe",
-    "Sg2Launch160yx.exe",
     "SG2NENSEI.exe",
     "sg7.exe",
     "sg8.exe",
@@ -17593,7 +17546,6 @@
     "SSJJ_BattleClient_Unity.exe",
     "ssjj_sw.exe",
     "ssk.exe",
-    "sslogin.exe",
     "ssm.exe",
     "ssol.exe",
     "ssp.exe",
@@ -17697,16 +17649,10 @@
     "StarsOne.exe",
     "Starstruck.exe",
     "starswarm_d3d.exe",
-    "start_offthegrid.exe",
-    "start_protected_game .exe",
-    "starter_x64.exe",
-    "StartGameX15.exe",
     "startopia.exe",
     "StarTower.exe",
     "startrekdac.exe",
     "Startup Valley Adventure.exe",
-    "startup.exe",
-    "startuper.exe",
     "StarVikings.exe",
     "starwars.exe",
     "starwars_pc.exe",
@@ -20117,7 +20063,6 @@
     "tw2008.exe",
     "tw2_future.exe",
     "tw2cd.exe",
-    "tw2launch.exe",
     "tw_clients.exe",
     "twap.exe",
     "TWB_Kingdom.exe",
@@ -20215,7 +20160,6 @@
     "UGGunz.exe",
     "UHDPlayer.exe",
     "UHXWOW.exe",
-    "ui_launch_dx_bak.exe",
     "UI_Test.exe",
     "uktrucks.exe",
     "ukxrznhg.exe",
@@ -20375,7 +20319,6 @@
     "UOS.exe",
     "UOSA.exe",
     "UOSA_TC.exe",
-    "UplayWebCore.exe",
     "Upleftout.exe",
     "Upside Down.exe",
     "UptasiaApp.exe",
@@ -20992,7 +20935,6 @@
     "Watch Dogs.exe",
     "Watch_Ch1_2.exe",
     "Watch_Dogs 2.exe",
-    "watch_dogs-eac-launche.exe",
     "watch_dogs.exe",
     "Watch_Dogs_3dm.exe",
     "WatchDogs.exe",
@@ -21075,9 +21017,7 @@
     "Weaverse-Win64-Shipping.exe",
     "webbed.exe",
     "WebbVR.exe",
-    "WebCompanion.exe",
     "webfishing.exe",
-    "webwallpaper32.exe",
     "wecn2008.exe",
     "WeddingVR-Win64-Shipping.exe",
     "Wednesday.exe",
@@ -21541,7 +21481,6 @@
     "wuxia_client.exe",
     "wuxia_client_dx12.exe",
     "wuxia_client_x64.exe",
-    "wuxia_launch.exe",
     "WuxiaMaster.exe",
     "wuxiasc-Win64-Shipping.exe",
     "WuXiaXClient-Win64-Shipping.exe",
@@ -21646,13 +21585,11 @@
     "XGame_Ship.exe",
     "xgameFinal.exe",
     "XGirlEscape.exe",
-    "xgloginmain.exe",
     "XGWOW.exe",
     "Xheroes.exe",
     "xiahclient.exe",
     "xianclient.exe",
     "xianjian.exe",
-    "xianlogin.exe",
     "xianXiaBanTanK.exe",
     "xiaoaojianghuol.exe",
     "XiaoXia-Win64-Shipping.exe",
@@ -21720,7 +21657,6 @@
     "xxzshell.exe",
     "xy2.exe",
     "xy2svc.exe",
-    "xy3launch.exe",
     "Xy_Core.exe",
     "xyclient.exe",
     "xycq.exe",
@@ -23201,6 +23137,10 @@
   ],
   "excluded": [
     {
+      "name": "._cache_Launch.exe",
+      "reason": "launch bootstrap"
+    },
+    {
       "name": "._cache_Launcher.exe",
       "reason": "launcher"
     },
@@ -23339,6 +23279,10 @@
     {
       "name": "335wow",
       "reason": "not an EXE filename"
+    },
+    {
+      "name": "360_dldlweb.exe",
+      "reason": "web helper"
     },
     {
       "name": "3DMGAME-Darksiders.Warmastered.Edition.CHS.Patch.v",
@@ -23713,6 +23657,10 @@
       "reason": "not an EXE filename"
     },
     {
+      "name": "bizlaunch.exe",
+      "reason": "launch bootstrap"
+    },
+    {
       "name": "BKNCClient.run",
       "reason": "not an EXE filename"
     },
@@ -23773,12 +23721,20 @@
       "reason": "launcher"
     },
     {
+      "name": "bootstrapper.exe",
+      "reason": "launch bootstrap"
+    },
+    {
       "name": "BoundaryBenchmark-Win64-Shipping.exe",
       "reason": "benchmark"
     },
     {
       "name": "BP_Benchmark-Win64-Shipping.exe",
       "reason": "benchmark"
+    },
+    {
+      "name": "BS中文列表Mod安装器ModAssistant(国内中转,下不动再用这个).exe",
+      "reason": "assistant"
     },
     {
       "name": "BTZClient",
@@ -23841,6 +23797,10 @@
       "reason": "not an EXE filename"
     },
     {
+      "name": "CefStoveRenderProcess.exe",
+      "reason": "browser helper"
+    },
+    {
       "name": "cf3.dat",
       "reason": "not an EXE filename"
     },
@@ -23861,6 +23821,10 @@
       "reason": "editor"
     },
     {
+      "name": "CitiLaunch.exe",
+      "reason": "launch bootstrap"
+    },
+    {
       "name": "CK2game.eve",
       "reason": "not an EXE filename"
     },
@@ -23871,6 +23835,10 @@
     {
       "name": "Clone Drone in the Danger Zone.ocx",
       "reason": "not an EXE filename"
+    },
+    {
+      "name": "CloudBerry Remote Assistant.exe",
+      "reason": "assistant"
     },
     {
       "name": "cnc3ep1.dat",
@@ -23929,6 +23897,10 @@
       "reason": "content manager"
     },
     {
+      "name": "CooCare.Client4.exe",
+      "reason": "non-game client"
+    },
+    {
       "name": "CrashReporter.exe",
       "reason": "crash reporter"
     },
@@ -23977,6 +23949,10 @@
       "reason": "configuration tool"
     },
     {
+      "name": "csxylaunch.exe",
+      "reason": "launch bootstrap"
+    },
+    {
       "name": "CT5_Config.exe",
       "reason": "configuration tool"
     },
@@ -24015,6 +23991,10 @@
     {
       "name": "DarkSoulsIII.exe.exe",
       "reason": "duplicated EXE extension"
+    },
+    {
+      "name": "DashPanelClient.exe",
+      "reason": "non-game client"
     },
     {
       "name": "DATA.EXE.exe",
@@ -24233,6 +24213,10 @@
       "reason": "launcher"
     },
     {
+      "name": "EACLaunch.exe",
+      "reason": "launch bootstrap"
+    },
+    {
       "name": "EACLauncher.exe",
       "reason": "launcher"
     },
@@ -24313,6 +24297,10 @@
       "reason": "server"
     },
     {
+      "name": "EnscapeClient.exe",
+      "reason": "non-game client"
+    },
+    {
       "name": "eonpatch_r.exe",
       "reason": "updater"
     },
@@ -24343,6 +24331,10 @@
     {
       "name": "evelauncher.exe",
       "reason": "launcher"
+    },
+    {
+      "name": "ExecPubg.exe",
+      "reason": "launch bootstrap"
     },
     {
       "name": "execu.dll",
@@ -24553,6 +24545,10 @@
       "reason": "launcher"
     },
     {
+      "name": "GameCentre_Client.exe",
+      "reason": "platform launcher"
+    },
+    {
       "name": "gameclient.bin",
       "reason": "not an EXE filename"
     },
@@ -24563,6 +24559,10 @@
     {
       "name": "GameGuard.des",
       "reason": "not an EXE filename"
+    },
+    {
+      "name": "gamelaunch.exe",
+      "reason": "launch bootstrap"
     },
     {
       "name": "GameLauncher-Win64-Shipping.exe",
@@ -24629,12 +24629,20 @@
       "reason": "not an EXE filename"
     },
     {
+      "name": "GlyphClientApp.exe",
+      "reason": "platform launcher"
+    },
+    {
       "name": "GlyphCrashHandler64.exe",
       "reason": "crash reporter"
     },
     {
       "name": "godot.windows.opt.tools.64.exe",
       "reason": "game editor"
+    },
+    {
+      "name": "golaunch.exe",
+      "reason": "launch bootstrap"
     },
     {
       "name": "GOTHIC.bin",
@@ -24723,6 +24731,10 @@
     {
       "name": "Gw2-Setup-x64-20190311.exe",
       "reason": "installer"
+    },
+    {
+      "name": "gxxcef.exe",
+      "reason": "browser helper"
     },
     {
       "name": "h1_sp64_ship.cmd",
@@ -24833,6 +24845,10 @@
       "reason": "launcher"
     },
     {
+      "name": "hod3launch.exe",
+      "reason": "launch bootstrap"
+    },
+    {
       "name": "hoi4.eve",
       "reason": "not an EXE filename"
     },
@@ -24871,6 +24887,10 @@
     {
       "name": "HydraOverlay.exe",
       "reason": "overlay"
+    },
+    {
+      "name": "hyp.exe",
+      "reason": "platform launcher"
     },
     {
       "name": "I wanna Defeat the Discord Makers CN Side v1.02.ex",
@@ -25085,8 +25105,72 @@
       "reason": "numbered copy of an existing EXE"
     },
     {
+      "name": "Launch - 原版.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "Launch 1.02.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "Launch A.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "Launch Empire Earth II The Art of Supremacy.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "Launch Skyrim.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "launch.bin.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "launch.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "Launch1.02.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "Launch_BM.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "launch_dx.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "Launch_EA.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "Launch_Game.exe",
+      "reason": "launch bootstrap"
+    },
+    {
       "name": "Launch_Game.exe.exe",
       "reason": "duplicated EXE extension"
+    },
+    {
+      "name": "Launch_Game1.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "Launch_HLL.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "Launch_JP.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "Launch_Trials_Rising.exe",
+      "reason": "launch bootstrap"
     },
     {
       "name": "Launcher-8.0.3.15.exe",
@@ -25127,6 +25211,18 @@
     {
       "name": "LauncherPatcher.exe",
       "reason": "launcher"
+    },
+    {
+      "name": "LaunchPad.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "Launchs.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "launchssc.exe",
+      "reason": "launch bootstrap"
     },
     {
       "name": "LDS_Launcher.exe",
@@ -25175,6 +25271,10 @@
     {
       "name": "lsass.dll",
       "reason": "not an EXE filename"
+    },
+    {
+      "name": "LWLaunch.exe",
+      "reason": "launch bootstrap"
     },
     {
       "name": "M1.dll",
@@ -25291,6 +25391,10 @@
     {
       "name": "MHW OVERLAY-142-3-5.exe",
       "reason": "overlay"
+    },
+    {
+      "name": "MindsEyesLaunch.exe",
+      "reason": "launch bootstrap"
     },
     {
       "name": "MinecraftLauncher.exe",
@@ -25605,6 +25709,10 @@
       "reason": "configuration tool"
     },
     {
+      "name": "Nolo_WPFAssistant.exe",
+      "reason": "assistant"
+    },
+    {
       "name": "NS3FB_launcher.ocx",
       "reason": "not an EXE filename"
     },
@@ -25783,6 +25891,10 @@
     {
       "name": "python.exe",
       "reason": "development runtime"
+    },
+    {
+      "name": "qqlogin.exe",
+      "reason": "login client"
     },
     {
       "name": "qqsmbenchmark.exe",
@@ -26133,6 +26245,18 @@
       "reason": "launcher"
     },
     {
+      "name": "sflogin.exe",
+      "reason": "login client"
+    },
+    {
+      "name": "Sg2Launch.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "Sg2Launch160yx.exe",
+      "reason": "launch bootstrap"
+    },
+    {
       "name": "Shade.dat",
       "reason": "not an EXE filename"
     },
@@ -26285,6 +26409,10 @@
       "reason": "launcher"
     },
     {
+      "name": "sslogin.exe",
+      "reason": "login client"
+    },
+    {
       "name": "SSMO.bin",
       "reason": "not an EXE filename"
     },
@@ -26309,12 +26437,36 @@
       "reason": "editor"
     },
     {
+      "name": "start_offthegrid.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "start_protected_game .exe",
+      "reason": "launch bootstrap"
+    },
+    {
       "name": "start_protected_game.exe.wemod-backup",
       "reason": "not an EXE filename"
     },
     {
       "name": "startalesbenchmark.exe",
       "reason": "benchmark"
+    },
+    {
+      "name": "starter_x64.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "StartGameX15.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "startup.exe",
+      "reason": "launch bootstrap"
+    },
+    {
+      "name": "startuper.exe",
+      "reason": "launch bootstrap"
     },
     {
       "name": "StateOfDecay.dll",
@@ -26601,6 +26753,10 @@
       "reason": "duplicated EXE extension"
     },
     {
+      "name": "tw2launch.exe",
+      "reason": "launch bootstrap"
+    },
+    {
       "name": "TwinmotionCookedEditor-Win64-Shipping.exe",
       "reason": "editor"
     },
@@ -26625,6 +26781,10 @@
       "reason": "editor"
     },
     {
+      "name": "ui_launch_dx_bak.exe",
+      "reason": "launch bootstrap"
+    },
+    {
       "name": "undertale-disbelief-demo (1).exe",
       "reason": "numbered copy of an existing EXE"
     },
@@ -26635,6 +26795,10 @@
     {
       "name": "uplauncher.exe",
       "reason": "launcher"
+    },
+    {
+      "name": "UplayWebCore.exe",
+      "reason": "browser helper"
     },
     {
       "name": "UT3.exe.exe",
@@ -26741,6 +26905,10 @@
       "reason": "launcher"
     },
     {
+      "name": "watch_dogs-eac-launche.exe",
+      "reason": "launch bootstrap"
+    },
+    {
       "name": "WatchDogs2.exe.exe",
       "reason": "duplicated EXE extension"
     },
@@ -26755,6 +26923,14 @@
     {
       "name": "Wealth3.bin",
       "reason": "not an EXE filename"
+    },
+    {
+      "name": "WebCompanion.exe",
+      "reason": "browser helper"
+    },
+    {
+      "name": "webwallpaper32.exe",
+      "reason": "wallpaper utility"
     },
     {
       "name": "Wildshape Editor.exe",
@@ -26849,6 +27025,10 @@
       "reason": "launcher"
     },
     {
+      "name": "wuxia_launch.exe",
+      "reason": "launch bootstrap"
+    },
+    {
       "name": "WW3_launcher.exe",
       "reason": "launcher"
     },
@@ -26885,6 +27065,14 @@
       "reason": "launcher"
     },
     {
+      "name": "xgloginmain.exe",
+      "reason": "login client"
+    },
+    {
+      "name": "xianlogin.exe",
+      "reason": "login client"
+    },
+    {
       "name": "XMF_StripperAnya2_v3_NEWMEM_GLBLSPR_november2018.e",
       "reason": "not an EXE filename"
     },
@@ -26899,6 +27087,10 @@
     {
       "name": "xy2.dll",
       "reason": "not an EXE filename"
+    },
+    {
+      "name": "xy3launch.exe",
+      "reason": "launch bootstrap"
     },
     {
       "name": "XzClient.dat",

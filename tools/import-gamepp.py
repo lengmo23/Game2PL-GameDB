@@ -14,6 +14,9 @@ INVALID_NAME = re.compile(r'[<>:"/\\|?*\x00-\x1f]')
 NUMBERED_COPY = re.compile(r" \(([1-9][0-9]*)\)\.exe$", re.I)
 EXCLUSIONS = [
     ("launcher", re.compile(r"launcher", re.I)),
+    ("launch bootstrap", re.compile(r"^launch|launch[0-9_a-z]*\.exe$|^startgame|^start_protected_game|^start_offthegrid\.exe$|^bootstrapper\.exe$|^starter_x64\.exe$|^startup(?:er)?\.exe$", re.I)),
+    ("login client", re.compile(r"login(?:main)?\.exe$", re.I)),
+    ("assistant", re.compile(r"assistant", re.I)),
     ("editor", re.compile(r"editor", re.I)),
     ("benchmark", re.compile(r"benchmark", re.I)),
     ("installer", re.compile(r"installer|setup|install(?:ing)?(?:\.exe$|[._\s-])|uninstall|unins", re.I)),
@@ -85,6 +88,20 @@ EXACT_EXCLUSIONS = {
     "vrserver.exe": "server",
     "client_loader.exe": "loader",
     "terrariamodloader.exe": "mod loader",
+    "watch_dogs-eac-launche.exe": "launch bootstrap",
+    "execpubg.exe": "launch bootstrap",
+    "hyp.exe": "platform launcher",
+    "gamecentre_client.exe": "platform launcher",
+    "glyphclientapp.exe": "platform launcher",
+    "coocare.client4.exe": "non-game client",
+    "dashpanelclient.exe": "non-game client",
+    "enscapeclient.exe": "non-game client",
+    "cefstoverenderprocess.exe": "browser helper",
+    "gxxcef.exe": "browser helper",
+    "uplaywebcore.exe": "browser helper",
+    "webcompanion.exe": "browser helper",
+    "webwallpaper32.exe": "wallpaper utility",
+    "360_dldlweb.exe": "web helper",
 }
 
 
