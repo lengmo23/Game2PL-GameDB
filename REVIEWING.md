@@ -1,6 +1,6 @@
 # 候选审核规则
 
-`candidate` 只能由人工维护者改为 `verified` 或 `rejected`。AI 可以整理证据、发现重复项和标记风险，但不能仅凭游戏名称自动批准。
+`candidate` 由维护者审核后改为 `verified` 或 `rejected`；经维护者明确授权，AI 可按下述证据标准执行审核。不能仅凭游戏名称或 EXE 名称自动批准。
 
 批准为 `verified` 至少满足以下一项：
 

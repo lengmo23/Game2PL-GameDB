@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-19T00:00:00.000Z",
+  "generatedAt": "2026-10-26T00:00:00.000Z",
   "records": [
     {
       "schemaVersion": 1,
@@ -61,6 +61,33 @@
         }
       ],
       "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "standalone:fortnite",
+      "status": "verified",
+      "names": {
+        "en": "Fortnite"
+      },
+      "platform": "standalone",
+      "platformId": "fortnite",
+      "executables": [
+        {
+          "name": "FortniteClient-Win64-Shipping.exe",
+          "relativePath": "FortniteGame/Binaries/Win64/FortniteClient-Win64-Shipping.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "publisher",
+          "source": "https://www.epicgames.com/help/c-34254770/c-38015632/pcfortnite-a25544495 identifies FortniteClient-Win64-Shipping.exe as the Windows game process."
+        },
+        {
+          "kind": "publisher",
+          "source": "https://www.epicgames.com/help/c-32735058/c-37477814/a10628872 lists the game binary alongside the separate FortniteLauncher.exe, BattlEye and EAC bootstrap filenames."
+        }
+      ],
+      "lastVerified": "2026-10-26"
     },
     {
       "schemaVersion": 1,
@@ -178,6 +205,30 @@
     },
     {
       "schemaVersion": 1,
+      "id": "standalone:league-of-legends",
+      "status": "verified",
+      "names": {
+        "en": "League of Legends",
+        "zh-CN": "英雄联盟"
+      },
+      "platform": "standalone",
+      "platformId": "league-of-legends",
+      "executables": [
+        {
+          "name": "League of Legends.exe",
+          "relativePath": "Game/League of Legends.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "publisher",
+          "source": "https://support-leagueoflegends.riotgames.com/hc/articles/43435443937299 identifies Game/League of Legends.exe separately from LeagueClient.exe, LeagueClientUx.exe and RiotClientServices.exe."
+        }
+      ],
+      "lastVerified": "2026-10-26"
+    },
+    {
+      "schemaVersion": 1,
       "id": "standalone:valorant",
       "status": "verified",
       "names": {
@@ -256,6 +307,112 @@
         }
       ],
       "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1091500",
+      "status": "verified",
+      "names": {
+        "en": "Cyberpunk 2077"
+      },
+      "platform": "steam",
+      "platformId": "1091500",
+      "executables": [
+        {
+          "name": "Cyberpunk2077.exe",
+          "relativePath": "bin/x64/Cyberpunk2077.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1091500/Cyberpunk_2077/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://support.cdprojektred.com/en/cyberpunk/pc/sp-technical/issue/1568/contact-to-support gives the Windows game path bin/x64/Cyberpunk2077.exe."
+        }
+      ],
+      "lastVerified": "2026-10-26"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1172470",
+      "status": "verified",
+      "names": {
+        "en": "Apex Legends"
+      },
+      "platform": "steam",
+      "platformId": "1172470",
+      "executables": [
+        {
+          "name": "r5apex.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1172470/Apex_Legends/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://help.ea.com/en/articles/apex-legends/error-codes/ identifies r5apex.exe as an Apex Legends game executable."
+        }
+      ],
+      "lastVerified": "2026-10-26"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1174180",
+      "status": "verified",
+      "names": {
+        "en": "Red Dead Redemption 2"
+      },
+      "platform": "steam",
+      "platformId": "1174180",
+      "executables": [
+        {
+          "name": "RDR2.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://support.rockstargames.com/articles/7n3mPnDq5ld6M6KIXboneC/red-dead-redemption-2-on-pc-crashing-with-err-gfx-state-error identifies RDR2.exe as the game executable across Steam, Epic and Rockstar installations."
+        }
+      ],
+      "lastVerified": "2026-10-26"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1418630",
+      "status": "verified",
+      "names": {
+        "en": "Dread Hunger"
+      },
+      "platform": "steam",
+      "platformId": "1418630",
+      "executables": [
+        {
+          "name": "DreadHunger-Win64-Shipping.exe",
+          "relativePath": "DreadHunger/Binaries/Win64/DreadHunger-Win64-Shipping.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1418630/Dread_Hunger/"
+        },
+        {
+          "kind": "platform_metadata",
+          "source": "Local Steam appmanifest_1418630.acf identifies Dread Hunger; installed client binary is under DreadHunger/Binaries/Win64, separate from WindowsServer and UnrealCEFSubProcess."
+        }
+      ],
+      "lastVerified": "2026-10-26"
     },
     {
       "schemaVersion": 1,

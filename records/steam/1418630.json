@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1418630",
+  "status": "verified",
+  "names": { "en": "Dread Hunger" },
+  "platform": "steam",
+  "platformId": "1418630",
+  "executables": [
+    { "name": "DreadHunger-Win64-Shipping.exe", "relativePath": "DreadHunger/Binaries/Win64/DreadHunger-Win64-Shipping.exe" }
+  ],
+  "evidence": [
+    { "kind": "official_store", "source": "https://store.steampowered.com/app/1418630/Dread_Hunger/" },
+    { "kind": "platform_metadata", "source": "Local Steam appmanifest_1418630.acf identifies Dread Hunger; installed client binary is under DreadHunger/Binaries/Win64, separate from WindowsServer and UnrealCEFSubProcess." }
+  ],
+  "lastVerified": "2026-10-26"
+}

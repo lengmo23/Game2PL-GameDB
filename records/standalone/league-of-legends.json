@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "standalone:league-of-legends",
+  "status": "verified",
+  "names": { "en": "League of Legends", "zh-CN": "英雄联盟" },
+  "platform": "standalone",
+  "platformId": "league-of-legends",
+  "executables": [
+    { "name": "League of Legends.exe", "relativePath": "Game/League of Legends.exe" }
+  ],
+  "evidence": [
+    { "kind": "publisher", "source": "https://support-leagueoflegends.riotgames.com/hc/articles/43435443937299 identifies Game/League of Legends.exe separately from LeagueClient.exe, LeagueClientUx.exe and RiotClientServices.exe." }
+  ],
+  "lastVerified": "2026-10-26"
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "standalone:fortnite",
+  "status": "verified",
+  "names": { "en": "Fortnite" },
+  "platform": "standalone",
+  "platformId": "fortnite",
+  "executables": [
+    { "name": "FortniteClient-Win64-Shipping.exe", "relativePath": "FortniteGame/Binaries/Win64/FortniteClient-Win64-Shipping.exe" }
+  ],
+  "evidence": [
+    { "kind": "publisher", "source": "https://www.epicgames.com/help/c-34254770/c-38015632/pcfortnite-a25544495 identifies FortniteClient-Win64-Shipping.exe as the Windows game process." },
+    { "kind": "publisher", "source": "https://www.epicgames.com/help/c-32735058/c-37477814/a10628872 lists the game binary alongside the separate FortniteLauncher.exe, BattlEye and EAC bootstrap filenames." }
+  ],
+  "lastVerified": "2026-10-26"
+}

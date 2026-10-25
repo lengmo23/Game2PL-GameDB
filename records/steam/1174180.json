@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1174180",
+  "status": "verified",
+  "names": { "en": "Red Dead Redemption 2" },
+  "platform": "steam",
+  "platformId": "1174180",
+  "executables": [
+    { "name": "RDR2.exe" }
+  ],
+  "evidence": [
+    { "kind": "official_store", "source": "https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" },
+    { "kind": "publisher", "source": "https://support.rockstargames.com/articles/7n3mPnDq5ld6M6KIXboneC/red-dead-redemption-2-on-pc-crashing-with-err-gfx-state-error identifies RDR2.exe as the game executable across Steam, Epic and Rockstar installations." }
+  ],
+  "lastVerified": "2026-10-26"
+}

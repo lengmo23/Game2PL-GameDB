@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1172470",
+  "status": "verified",
+  "names": { "en": "Apex Legends" },
+  "platform": "steam",
+  "platformId": "1172470",
+  "executables": [
+    { "name": "r5apex.exe" }
+  ],
+  "evidence": [
+    { "kind": "official_store", "source": "https://store.steampowered.com/app/1172470/Apex_Legends/" },
+    { "kind": "publisher", "source": "https://help.ea.com/en/articles/apex-legends/error-codes/ identifies r5apex.exe as an Apex Legends game executable." }
+  ],
+  "lastVerified": "2026-10-26"
+}
