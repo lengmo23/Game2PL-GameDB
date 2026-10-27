@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:2050650",
+  "status": "verified",
+  "names": {
+    "en": "Resident Evil 4 (2023)"
+  },
+  "platform": "steam",
+  "platformId": "2050650",
+  "executables": [
+    {
+      "name": "re4.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/2050650/Resident_Evil_4/"
+    },
+    {
+      "kind": "publisher",
+      "source": "https://www.capcom-support.com/hc/en-us/articles/8192772494108-Resident-Evil-4-2023-General-Troubleshooting-Guide-Steam Capcom identifies re4.exe in the 2023 Resident Evil 4 Steam installation; the Steam AppID distinguishes it from the 2005 release."
+    }
+  ],
+  "lastVerified": "2026-10-28"
+}

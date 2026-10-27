@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:489830",
+  "status": "verified",
+  "names": {
+    "en": "The Elder Scrolls V: Skyrim Special Edition"
+  },
+  "platform": "steam",
+  "platformId": "489830",
+  "executables": [
+    {
+      "name": "SkyrimSE.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/"
+    },
+    {
+      "kind": "publisher",
+      "source": "https://help.bethesda.net/app/answers/detail/a_id/45370/ Bethesda names SkyrimSE.exe separately from SkyrimSELauncher.exe."
+    }
+  ],
+  "lastVerified": "2026-10-28"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:418370",
+  "status": "verified",
+  "names": {
+    "en": "Resident Evil 7 Biohazard"
+  },
+  "platform": "steam",
+  "platformId": "418370",
+  "executables": [
+    {
+      "name": "re7.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/418370/Resident_Evil_7_Biohazard/"
+    },
+    {
+      "kind": "publisher",
+      "source": "https://www.capcom-support.com/hc/en-us/articles/5827833043612-Resident-Evil-7-biohazard-General-Troubleshooting-Guide-Steam Capcom identifies re7.exe as the game executable in the Steam installation."
+    }
+  ],
+  "lastVerified": "2026-10-28"
+}

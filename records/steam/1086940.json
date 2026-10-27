@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1086940",
+  "status": "verified",
+  "names": {
+    "en": "Baldur's Gate 3"
+  },
+  "platform": "steam",
+  "platformId": "1086940",
+  "executables": [
+    {
+      "name": "bg3.exe",
+      "relativePath": "bin/bg3.exe"
+    },
+    {
+      "name": "bg3_dx11.exe",
+      "relativePath": "bin/bg3_dx11.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
+    },
+    {
+      "kind": "publisher",
+      "source": "https://larian.com/support/faqs/crashing-upon-startup-pc_59 Larian identifies the Vulkan and DirectX 11 game executables in the bin folder, separately from its launcher."
+    }
+  ],
+  "lastVerified": "2026-10-28"
+}

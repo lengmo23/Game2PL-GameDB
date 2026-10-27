@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:1364780",
+  "status": "verified",
+  "names": {
+    "en": "Street Fighter 6"
+  },
+  "platform": "steam",
+  "platformId": "1364780",
+  "executables": [
+    {
+      "name": "StreetFighter6.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/1364780/Street_Fighter_6/"
+    },
+    {
+      "kind": "publisher",
+      "source": "https://www.capcom-support.com/hc/en-us/articles/9028228511260-Street-Fighter-6-General-Troubleshooting-Guide-Steam Capcom identifies StreetFighter6.exe as the game executable in the Steam installation."
+    }
+  ],
+  "lastVerified": "2026-10-28"
+}

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:230410",
+  "status": "verified",
+  "names": {
+    "en": "Warframe"
+  },
+  "platform": "steam",
+  "platformId": "230410",
+  "executables": [
+    {
+      "name": "Warframe.x64.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/230410/Warframe/"
+    },
+    {
+      "kind": "publisher",
+      "source": "https://support.warframe.com/hc/en-us/articles/360044025712-Update-failed Digital Extremes names Warframe.x64.exe separately from Launcher.exe."
+    }
+  ],
+  "lastVerified": "2026-10-28"
+}

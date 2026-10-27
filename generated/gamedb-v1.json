@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T00:00:00.000Z",
+  "generatedAt": "2026-10-28T00:00:00.000Z",
   "records": [
     {
       "schemaVersion": 1,
@@ -310,6 +310,37 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1086940",
+      "status": "verified",
+      "names": {
+        "en": "Baldur's Gate 3"
+      },
+      "platform": "steam",
+      "platformId": "1086940",
+      "executables": [
+        {
+          "name": "bg3.exe",
+          "relativePath": "bin/bg3.exe"
+        },
+        {
+          "name": "bg3_dx11.exe",
+          "relativePath": "bin/bg3_dx11.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1086940/Baldurs_Gate_3/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://larian.com/support/faqs/crashing-upon-startup-pc_59 Larian identifies the Vulkan and DirectX 11 game executables in the bin folder, separately from its launcher."
+        }
+      ],
+      "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1091500",
       "status": "verified",
       "names": {
@@ -334,6 +365,32 @@
         }
       ],
       "lastVerified": "2026-10-26"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1151340",
+      "status": "verified",
+      "names": {
+        "en": "Fallout 76"
+      },
+      "platform": "steam",
+      "platformId": "1151340",
+      "executables": [
+        {
+          "name": "Fallout76.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1151340/Fallout_76/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://help.bethesda.net/app/answers/detail/a_id/50679/ Bethesda identifies Fallout76.exe in the Steam game installation separately from Steam.exe."
+        }
+      ],
+      "lastVerified": "2026-10-28"
     },
     {
       "schemaVersion": 1,
@@ -389,6 +446,58 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1196590",
+      "status": "verified",
+      "names": {
+        "en": "Resident Evil Village"
+      },
+      "platform": "steam",
+      "platformId": "1196590",
+      "executables": [
+        {
+          "name": "re8.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1196590/Resident_Evil_Village/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://www.capcom-support.com/hc/en-us/articles/5598567332508-Resident-Evil-Village-General-Troubleshooting-Guide-Steam Capcom identifies re8.exe as the game executable in the Steam installation."
+        }
+      ],
+      "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1364780",
+      "status": "verified",
+      "names": {
+        "en": "Street Fighter 6"
+      },
+      "platform": "steam",
+      "platformId": "1364780",
+      "executables": [
+        {
+          "name": "StreetFighter6.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1364780/Street_Fighter_6/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://www.capcom-support.com/hc/en-us/articles/9028228511260-Street-Fighter-6-General-Troubleshooting-Guide-Steam Capcom identifies StreetFighter6.exe as the game executable in the Steam installation."
+        }
+      ],
+      "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1418630",
       "status": "verified",
       "names": {
@@ -416,6 +525,58 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:1446780",
+      "status": "verified",
+      "names": {
+        "en": "Monster Hunter Rise"
+      },
+      "platform": "steam",
+      "platformId": "1446780",
+      "executables": [
+        {
+          "name": "MonsterHunterRise.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1446780/MONSTER_HUNTER_RISE/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://www.capcom-support.com/hc/en-us/articles/5609349086876-Monster-Hunter-Rise-General-Troubleshooting-Guide-Steam Capcom identifies MonsterHunterRise.exe as the game executable in the Steam installation."
+        }
+      ],
+      "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:1716740",
+      "status": "verified",
+      "names": {
+        "en": "Starfield"
+      },
+      "platform": "steam",
+      "platformId": "1716740",
+      "executables": [
+        {
+          "name": "Starfield.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/1716740/Starfield/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://help.bethesda.net/app/answers/detail/a_id/62109/ Bethesda identifies Starfield.exe in the Steam game installation directory."
+        }
+      ],
+      "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:1905180",
       "status": "rejected",
       "names": {
@@ -435,6 +596,193 @@
         }
       ],
       "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:2050650",
+      "status": "verified",
+      "names": {
+        "en": "Resident Evil 4 (2023)"
+      },
+      "platform": "steam",
+      "platformId": "2050650",
+      "executables": [
+        {
+          "name": "re4.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/2050650/Resident_Evil_4/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://www.capcom-support.com/hc/en-us/articles/8192772494108-Resident-Evil-4-2023-General-Troubleshooting-Guide-Steam Capcom identifies re4.exe in the 2023 Resident Evil 4 Steam installation; the Steam AppID distinguishes it from the 2005 release."
+        }
+      ],
+      "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:230410",
+      "status": "verified",
+      "names": {
+        "en": "Warframe"
+      },
+      "platform": "steam",
+      "platformId": "230410",
+      "executables": [
+        {
+          "name": "Warframe.x64.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/230410/Warframe/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://support.warframe.com/hc/en-us/articles/360044025712-Update-failed Digital Extremes names Warframe.x64.exe separately from Launcher.exe."
+        }
+      ],
+      "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:377160",
+      "status": "verified",
+      "names": {
+        "en": "Fallout 4"
+      },
+      "platform": "steam",
+      "platformId": "377160",
+      "executables": [
+        {
+          "name": "Fallout4.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/377160/Fallout_4/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://help.bethesda.net/app/answers/detail/a_id/40902/ Bethesda names Fallout4.exe separately from Fallout4Launcher.exe."
+        }
+      ],
+      "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:379720",
+      "status": "verified",
+      "names": {
+        "en": "DOOM (2016)"
+      },
+      "platform": "steam",
+      "platformId": "379720",
+      "executables": [
+        {
+          "name": "DOOMx64.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/379720/DOOM/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://help.bethesda.net/app/answers/detail/a_id/33908/ Bethesda identifies DOOMx64.exe as the executable in the DOOM Steam installation."
+        }
+      ],
+      "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:418370",
+      "status": "verified",
+      "names": {
+        "en": "Resident Evil 7 Biohazard"
+      },
+      "platform": "steam",
+      "platformId": "418370",
+      "executables": [
+        {
+          "name": "re7.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/418370/Resident_Evil_7_Biohazard/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://www.capcom-support.com/hc/en-us/articles/5827833043612-Resident-Evil-7-biohazard-General-Troubleshooting-Guide-Steam Capcom identifies re7.exe as the game executable in the Steam installation."
+        }
+      ],
+      "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:427520",
+      "status": "verified",
+      "names": {
+        "en": "Factorio"
+      },
+      "platform": "steam",
+      "platformId": "427520",
+      "executables": [
+        {
+          "name": "Factorio.exe",
+          "relativePath": "bin/x64/Factorio.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/427520/Factorio/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://factorio.com/support/faq Wube lists Factorio.exe as the Windows game executable."
+        },
+        {
+          "kind": "publisher",
+          "source": "https://wiki.factorio.com/Command_line_parameters documents bin/x64/Factorio.exe."
+        }
+      ],
+      "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:489830",
+      "status": "verified",
+      "names": {
+        "en": "The Elder Scrolls V: Skyrim Special Edition"
+      },
+      "platform": "steam",
+      "platformId": "489830",
+      "executables": [
+        {
+          "name": "SkyrimSE.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/489830/The_Elder_Scrolls_V_Skyrim_Special_Edition/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://help.bethesda.net/app/answers/detail/a_id/45370/ Bethesda names SkyrimSE.exe separately from SkyrimSELauncher.exe."
+        }
+      ],
+      "lastVerified": "2026-10-28"
     },
     {
       "schemaVersion": 1,
@@ -465,6 +813,32 @@
     },
     {
       "schemaVersion": 1,
+      "id": "steam:582010",
+      "status": "verified",
+      "names": {
+        "en": "Monster Hunter: World"
+      },
+      "platform": "steam",
+      "platformId": "582010",
+      "executables": [
+        {
+          "name": "MonsterHunterWorld.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/582010/Monster_Hunter_World/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://www.capcom-support.com/hc/en-us/articles/5729909044252-Monster-Hunter-World-General-Troubleshooting-Guide-Steam Capcom identifies MonsterHunterWorld.exe as the game executable in the Steam installation."
+        }
+      ],
+      "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
       "id": "steam:730",
       "status": "verified",
       "names": {
@@ -489,6 +863,58 @@
         }
       ],
       "lastVerified": "2026-10-19"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:782330",
+      "status": "verified",
+      "names": {
+        "en": "DOOM Eternal"
+      },
+      "platform": "steam",
+      "platformId": "782330",
+      "executables": [
+        {
+          "name": "DOOMEternalx64vk.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/782330/DOOM_Eternal/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://help.bethesda.net/app/answers/detail/a_id/50139/ Bethesda identifies DOOMEternalx64vk.exe separately from idTechLauncher.exe."
+        }
+      ],
+      "lastVerified": "2026-10-28"
+    },
+    {
+      "schemaVersion": 1,
+      "id": "steam:952060",
+      "status": "verified",
+      "names": {
+        "en": "Resident Evil 3 (2020)"
+      },
+      "platform": "steam",
+      "platformId": "952060",
+      "executables": [
+        {
+          "name": "re3.exe"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "official_store",
+          "source": "https://store.steampowered.com/app/952060/Resident_Evil_3/"
+        },
+        {
+          "kind": "publisher",
+          "source": "https://www.capcom-support.com/hc/en-us/articles/5787244644636-Resident-Evil-3-General-Troubleshooting-Guide-Steam Capcom identifies re3.exe in the RE3 installation, separately from REResistance.exe."
+        }
+      ],
+      "lastVerified": "2026-10-28"
     },
     {
       "schemaVersion": 1,

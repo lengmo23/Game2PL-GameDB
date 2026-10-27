@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:379720",
+  "status": "verified",
+  "names": {
+    "en": "DOOM (2016)"
+  },
+  "platform": "steam",
+  "platformId": "379720",
+  "executables": [
+    {
+      "name": "DOOMx64.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/379720/DOOM/"
+    },
+    {
+      "kind": "publisher",
+      "source": "https://help.bethesda.net/app/answers/detail/a_id/33908/ Bethesda identifies DOOMx64.exe as the executable in the DOOM Steam installation."
+    }
+  ],
+  "lastVerified": "2026-10-28"
+}

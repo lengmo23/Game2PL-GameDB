@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:427520",
+  "status": "verified",
+  "names": {
+    "en": "Factorio"
+  },
+  "platform": "steam",
+  "platformId": "427520",
+  "executables": [
+    {
+      "name": "Factorio.exe",
+      "relativePath": "bin/x64/Factorio.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/427520/Factorio/"
+    },
+    {
+      "kind": "publisher",
+      "source": "https://factorio.com/support/faq Wube lists Factorio.exe as the Windows game executable."
+    },
+    {
+      "kind": "publisher",
+      "source": "https://wiki.factorio.com/Command_line_parameters documents bin/x64/Factorio.exe."
+    }
+  ],
+  "lastVerified": "2026-10-28"
+}

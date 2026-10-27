@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:952060",
+  "status": "verified",
+  "names": {
+    "en": "Resident Evil 3 (2020)"
+  },
+  "platform": "steam",
+  "platformId": "952060",
+  "executables": [
+    {
+      "name": "re3.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/952060/Resident_Evil_3/"
+    },
+    {
+      "kind": "publisher",
+      "source": "https://www.capcom-support.com/hc/en-us/articles/5787244644636-Resident-Evil-3-General-Troubleshooting-Guide-Steam Capcom identifies re3.exe in the RE3 installation, separately from REResistance.exe."
+    }
+  ],
+  "lastVerified": "2026-10-28"
+}

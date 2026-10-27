@@ -21,4 +21,4 @@
 
 更新候选时，在 `gamedb` 目录运行 `D:/Anaconda3/envs/pytorch/python.exe tools/import-gamepp.py <GamePP0.dat路径>`。脚本只读数据库，选择 `WhiteBlack` 表中 `type=1` 且 `on_off=1` 的记录；仅保留有效 EXE 文件名，过滤可明确识别的启动器、编辑器、跑分程序、安装器、服务、重复 `.exe` 扩展名，以及同库已有原名的 `(2)` 等编号副本。无法仅凭文件名判断的条目继续保留为待审候选。
 
-2026-10-26 的全库候选比对及证据审核结果见 `reviews/gamepp-type1-2026-10-26.md`。未证实的名称仍留在候选文件中。
+审核记录见 `reviews/gamepp-type1-2026-10-26.md` 与 `reviews/gamepp-type1-2026-10-28.md`。未证实的名称仍留在候选文件中。

@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:782330",
+  "status": "verified",
+  "names": {
+    "en": "DOOM Eternal"
+  },
+  "platform": "steam",
+  "platformId": "782330",
+  "executables": [
+    {
+      "name": "DOOMEternalx64vk.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/782330/DOOM_Eternal/"
+    },
+    {
+      "kind": "publisher",
+      "source": "https://help.bethesda.net/app/answers/detail/a_id/50139/ Bethesda identifies DOOMEternalx64vk.exe separately from idTechLauncher.exe."
+    }
+  ],
+  "lastVerified": "2026-10-28"
+}

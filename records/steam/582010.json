@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "steam:582010",
+  "status": "verified",
+  "names": {
+    "en": "Monster Hunter: World"
+  },
+  "platform": "steam",
+  "platformId": "582010",
+  "executables": [
+    {
+      "name": "MonsterHunterWorld.exe"
+    }
+  ],
+  "evidence": [
+    {
+      "kind": "official_store",
+      "source": "https://store.steampowered.com/app/582010/Monster_Hunter_World/"
+    },
+    {
+      "kind": "publisher",
+      "source": "https://www.capcom-support.com/hc/en-us/articles/5729909044252-Monster-Hunter-World-General-Troubleshooting-Guide-Steam Capcom identifies MonsterHunterWorld.exe as the game executable in the Steam installation."
+    }
+  ],
+  "lastVerified": "2026-10-28"
+}
